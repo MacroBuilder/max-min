@@ -5,8 +5,6 @@ def max_min(array, n, k):
 N = int(raw_input().strip())
 K = int(raw_input().strip())
 
-N_list = []
-for _ in range(N):
-    N_list.append(int(raw_input().strip()))
+N_list = [int(raw_input().strip() for _ in range(N)]
 
 print max_min(N_list, N, K)
